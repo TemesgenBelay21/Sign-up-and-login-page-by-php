@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("pexels-yosiazwan-9766221.jpg");
+    background-size: cover;
+    height : 100vh;
+}
+
+.box {
+    height: 300px;
+    width: 250px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(2,0,5,0.905);
+    border-radius: 30px;
+    opacity: 90%;
+    color: white;
+}
+
+.box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.box input {
+    width: 100%;
+    margin: 20px;
+    color: white;
+}
+
+.box input[type="text"], .box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
